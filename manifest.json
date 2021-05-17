@@ -1,0 +1,30 @@
+{
+  "name":"YGOogle～遊戯王ググルカード～",
+  "version":"1.0",
+  "manifest_version":2,
+  "description": "遊戯王公式カードデータベース、遊戯王カードWikiで見ているカードの名をgoogle検索できます。",
+  "icons": {
+    "16":"icon16.png",
+    "19":"icon19.png",
+    "48":"icon48.png",
+    "128":"icon128.png"
+  },
+
+  "permissions":[
+    "tabs"
+  ],
+
+  "background":{
+    "scripts":[
+      "background.js"
+    ],
+    "persistent": false
+  },
+
+  "page_action":{
+    "default_title":"YGOogle",
+    "default_popup":"popup.html"
+  },
+
+  "author": "湯ノ宮"
+}
